@@ -1,0 +1,30 @@
+button::after{
+  border: none;
+
+}
+button{
+  background: #fff;
+  padding: 0;
+}
+view{
+  font-family: "微软雅黑";
+  font-weight:600;
+}
+.smallerfont{
+  font-size:18rpx; 
+}
+.smallerfont{
+  font-size: 22rpx;
+}
+.smallfont{
+  font-size: 24rpx;
+}
+.middlefont{
+  font-size: 28rpx;
+}
+.middlebigfont{
+  font-size: 30rpx;
+}
+.bigfont{
+  font-size: 32rpx;
+}

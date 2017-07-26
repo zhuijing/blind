@@ -1,0 +1,82 @@
+{
+  "pages": [
+    
+    
+    "pages/index/index",
+    "pages/Matchmaker/Matchmaker",
+    "pages/personalData/personalData",
+    "pages/basicInformation/basicInformation",
+
+
+
+    "pages/singlesRecom/singlesRecom",
+
+
+    "pages/shoopShoop/shoopShoop",
+
+
+
+    "pages/message/message",
+    "pages/connectMsg/connectMsg",
+
+
+
+    "pages/mine/mine",
+    "pages/identical/identical",
+    "pages/money/money",
+    "pages/beans/beans",
+    "pages/wechat/wechat"
+   
+    
+   
+      
+   
+   
+        
+    
+    
+   
+   
+    
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ff7dc3",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "媒婆",
+    "backgroundColor": "#fff6fb",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true
+    
+  },"tabBar": {
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/img/matchmakerN.png",
+        "selectedIconPath": "/img/matchmakerT.png"
+      },{
+        "pagePath": "pages/singlesRecom/singlesRecom",
+        "text": "单身推荐",
+        "iconPath": "/img/singlesRecomN.png",
+        "selectedIconPath": "/img/singlesRecomT.png"
+      },{
+        "pagePath": "pages/shoopShoop/shoopShoop",
+        "text": "咻一咻",
+        "iconPath": "/img/shoopN.png",
+        "selectedIconPath": "/img/shoopT.png"
+      },{
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "/img/messageN.png",
+        "selectedIconPath": "/img/messageT.png"
+      
+      },{
+        "pagePath": "pages/mine/mine",
+        "text": "个人中心",
+        "iconPath": "/img/mineN.png",
+        "selectedIconPath": "/img/mineT.png"
+        
+      }]
+  }
+
+}
+
