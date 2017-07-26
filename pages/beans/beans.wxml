@@ -1,0 +1,19 @@
+<view class="bigwrap">
+<view class="pink">
+  <text style="font-size:74rpx;letter-spacing: 10rpx">40</text>
+  <view class="balance" style="font-size:25rpx;">
+    余额
+  </view>
+</view>
+<view class="recharge">
+  <text class="middlefont pay">充值</text>
+  <text class="middlefont payreconrding">充值记录</text>
+</view>
+
+<view class="reconrding">
+  <view class="reconrdingitem" wx:for="6912">
+    <text>40媒豆</text>
+    <text>{{item}}元</text>  
+  </view>
+</view>
+</view>

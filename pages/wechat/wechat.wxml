@@ -1,0 +1,40 @@
+<!--pages/singlesRecom/singlesRecom.wxml-->
+<form bindsubmit="formSubmit">
+<!--微信号-->
+<view class="wechat_top"> 
+</view>
+<view class="wechat_chat1">
+  <view class="wechat_chat1_0">
+    <text>微信号</text>
+  </view>
+  <view class="wechat_chat1_1">
+    <input placeholder="AB1995s"/>
+  </view>
+  <view class="wechat_chat1_2"></view>
+</view>
+<!--微信二维码-->
+<view class="wechat_chat2">
+  <text class="wechat_chat2_0">
+    微信二维码
+  </text>
+  <view class="wechat_chat2_1">
+    <image src="../../img/wechat.png"></image>
+  </view>
+</view>
+<!--50 24保存545  136-->
+<view class="wechat_chat3">
+   <view class="wechat_chat31">
+   </view>
+   <view class="wechat_chat32">
+     <text class="wechat_chat32_1">1.微信号仅双方同意后，发送给彼此，请放心使用</text>
+     <text class="wechat_chat32_1">2.为确保对方可以搜到您，请在微信中打开通过微信搜到我</text>
+     <text class="wechat_chat32_1">3.填写虚假微信号，会被平台封禁处理</text>
+   </view>
+   <view class="wechat_chat33">
+      <button formType="submit" class="wechat_chat33_1">保存</button>
+   </view>
+
+
+</view>
+
+</form>

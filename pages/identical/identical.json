@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "身份认证",
+  "navigationBarBackgroundColor": "white",
+  "navigationBarTextStyle": "black",
+  "backgroundColor": "#fff6fb",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh": true
+}

@@ -1,0 +1,47 @@
+<view class="bigwrap">
+
+  <view class="itemwrap">
+    <view class="matchmaker">
+      <image src="/img/lyf.jpg" class="matchmakerimg"></image>
+      <view class="matchmsg">
+        <text class="middlefont">Jim·Crowell</text>
+        <text class="smallerfont" style="color:#cec1c2">为你推荐我的单身团曹泽鹏,希望你会喜欢</text>
+      </view>
+      <text class="smallerfont"  style="color:#cec1c2;margin-left:14rpx">07月15日 19:58</text>
+    </view>
+ 
+    <view class="matchmaker single">
+      <image src="/img/lyf.jpg" class="singleimg"></image>
+      <view class="matchmsg">
+        <text class="middlefont" style="margin-bottom:10rpx;">CARY· ELUNA</text>
+        <text class="smallfont">24岁·160CM·巨蟹座</text>
+      </view>
+    </view>
+     <view class="btn">
+      <button class="btn1">感兴趣</button>
+      <button class="btn2">忽略</button>
+    </view>  
+  </view>
+   <view class="itemwrap">
+    <view class="matchmaker">
+      <image src="/img/lyf.jpg" class="matchmakerimg"></image>
+      <view class="matchmsg">
+        <text class="middlefont">Jim·Crowell</text>
+        <text class="smallerfont" style="color:#cec1c2">为你推荐我的单身团曹泽鹏,希望你会喜欢</text>
+      </view>
+      <text class="smallerfont"  style="color:#cec1c2;margin-left:14rpx">07月15日 19:58</text>
+    </view>
+ 
+    <view class="matchmaker single">
+      <image src="/img/lyf.jpg" class="singleimg"></image>
+      <view class="matchmsg">
+        <text class="middlefont">CARY· ELUNA</text>
+        <text class="smallfont">24岁·160CM·巨蟹座</text>
+      </view>
+    </view>
+     <view class="btn">
+      <button class="btn1">感兴趣</button>
+      <button class="btn2">忽略</button>
+    </view>  
+  </view>
+</view>

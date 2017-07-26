@@ -1,0 +1,127 @@
+/* pages/index/index.wxss */
+
+/*包含所有内容*/
+
+page {
+  background: #ff7dc3;
+}
+
+.viewWrap {
+  display: flex;
+  flex-direction: column;
+  background: #fff6fb;
+}
+
+/*轮播banner*/
+
+.bannerwrap {
+  width: 100%;
+  height: 368rpx;
+  position: relative;
+}
+
+.bannerone {
+  height: 50%;
+  width: 100%;
+  background: #ff7dc3;
+}
+
+.bannertwo {
+  height: 50%;
+  width: 100%;
+  background: fff6fb;
+}
+
+.banner {
+  width: 696rpx;
+  height: 368rpx;
+  overflow: hidden;
+  left: 26rpx;
+  position: absolute;
+  top: 0rpx;
+}
+
+.banner image {
+  width: 100%;
+  height: 100%;
+}
+
+swiper {
+  height: 100%;
+}
+
+/*轮播结束*/
+
+.listWrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 52rpx 31rpx 0rpx 29rpx;
+}
+
+.listitem:nth-child(odd) {
+  margin-right: 26rpx;
+}
+
+.listitem {
+  width: 332rpx;
+  height: 346rpx;
+  background: #fefefe;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+   box-shadow: rgb(255, 234, 240) 0rpx 0rpx 33rpx 9rpx; 
+  margin-bottom:87rpx; 
+  border-radius: 6rpx;
+}
+button::after{
+  border: none;
+}
+.itemImg {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+}
+
+
+.smallimgwrap{
+  display: flex;
+  flex-direction:row;
+  padding-left:88rpx;
+ 
+}
+.smallimg{
+ width:40rpx;
+ height:40rpx;
+ margin-left:-10rpx;
+ border-radius:50%; 
+ border: 2rpx solid #fefefe;
+}
+text.smallimg{
+font-size:31rpx;
+color:white;
+line-height:40rpx;
+text-align:center;
+margin-left:-10rpx;
+background:red;
+width:40rpx;
+height:40rpx;
+display:block;
+
+}
+.listitem button {
+  border-radius: 50rpx;
+  width: 162rpx;
+  height: 56rpx;
+  background: #fe66b1;
+  left: 50%;
+  margin-left: -81rpx;
+  bottom: -30rpx;
+  line-height: 56rpx;
+  overflow: visible;
+  color: white;
+  font-size: 24rpx;
+  border: 1rpx solid #fefefe;
+  box-shadow: rgb(255,155,203) 0rpx 3rpx 15rpx 3rpx;
+}

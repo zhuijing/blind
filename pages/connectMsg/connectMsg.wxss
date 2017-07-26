@@ -1,0 +1,74 @@
+/* pages/connectMsg/connectMsg.wxss */
+page{
+  background: #fff6fb;
+}
+view{
+  font-weight: normal;
+
+}
+.bigwrap{
+  padding:13rpx 31rpx 0 31rpx; 
+}
+.itemwrap{
+width: 689rpx;
+height:327rpx;
+background: #fff;
+margin-bottom: 80rpx;
+}
+.matchmaker{
+  display: flex;
+  flex-direction:row;
+  color: #947072;
+  padding: 16rpx 0 0 31rpx;
+}
+.matchmsg{
+    display: flex;
+  flex-direction:column;
+}
+.matchmakerimg{
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+  margin-right: 13rpx;
+}
+.single{
+  height: 128rpx;
+  width: 652rpx;
+  background: #fff6fb;
+  margin: 0 auto;
+  align-items: center;
+  padding:0;
+  margin-top: 30rpx;
+  border-radius:8rpx; 
+}
+.singleimg{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius:8rpx;
+  margin: 0 24rpx 0 35rpx;
+}
+.btn{
+  position: relative
+
+}
+.btn button{
+  width: 160rpx;
+  height: 56rpx;
+  border-radius:28rpx;
+  background: #fe66b1;
+  box-shadow: rgb(255, 191, 222) 2rpx 2rpx 0rpx 2rpx ;
+  border: 2rpx solid #fff;
+  color: #fff;
+  font-size: 26rpx;
+  line-height: 56rpx;
+  position: absolute;
+  
+}
+.btn1{
+  left: 135rpx;
+  top:67rpx;
+}
+.btn2{
+  left: 390rpx;
+  top: 67rpx;
+}

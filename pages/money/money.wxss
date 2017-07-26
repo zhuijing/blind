@@ -1,0 +1,103 @@
+/* pages/singlesRecom/singlesRecom.wxss */
+view{
+  font-weight:normal;
+}
+.money_one{
+  height:510rpx;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+}
+.money_one image{
+  width:100%;
+  height:510rpx;
+  display:block;
+}
+.mone_one_0{
+  margin-top:-393rpx;
+  font-size:36rpx;
+  color:white;
+  padding-left:293rpx;
+}
+.mone_one_1{
+  margin-top:20rpx;
+  font-size:60rpx;
+  color:white;
+  padding-left:310rpx;
+}
+.mone_one_2{
+  margin-top:20rpx;
+  font-size:28rpx;
+  color:white;
+  padding-left:220rpx;
+}
+.money_two{
+  height:718rpx;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  background-color:#FFF6FB;
+}
+.money_two_1{
+  height:69rpx;
+  width:100%;
+  display:flex;
+  flex-direction: row;
+  margin-top:50rpx;
+}
+.money_two_10{
+  padding-left:28rpx;
+  display:block;
+  height:66rpx;
+  width:66rpx;
+  border-radius:50%;
+}
+.money_two_11{
+  font-size:33rpx;
+  margin-top:13rpx;
+  padding-left:24rpx;
+}
+.money_two_12{
+  margin-top:18rpx;
+  padding-left:500rpx;
+  display:block;
+  height:30rpx;
+  width:30rpx; 
+}
+.money_two_2{
+  margin-top:18rpx;
+  display:flex;
+  border:2rpx solid #BCB5BA;
+  border-radius:50%;
+  margin-left:682rpx;
+  height:26rpx;
+  width:26rpx;
+}
+.money_two_3{
+  margin-top:318rpx;
+  display:flex;
+  font-size:24rpx;
+  color:737073;
+  width:100%;
+  justify-content: center;
+}
+.money_two_4{
+  margin-top:24rpx;
+  width:100%;
+  padding-left:63rpx;
+
+}
+.money_two_41{
+   width:612rpx;
+   height:72rpx;
+  display:block;
+   flex:display;
+   margin-left:-5rpx;
+   border:2rpx solid white;
+   background-color:#FE66B1;
+   line-height:72rpx;
+   border-radius:35rpx 35rpx 35rpx 35rpx;
+   box-shadow:0rpx 0rpx 10rpx #FE66B1;
+   font-size:30rpx;
+   color:white;
+}

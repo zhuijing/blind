@@ -1,0 +1,26 @@
+<!--pages/singlesRecom/singlesRecom.wxml-->
+<!--背景图-->
+<view class="money_one">
+  <image src="../../img/money.png"></image>
+  <text class="mone_one_0">充值金额</text>
+  <text class="mone_one_1">200</text>
+  <text class="mone_one_2">基金随心提，安全速到帐       </text>
+</view>
+<!--bottom718-->
+<view class="money_two">
+  <view class="money_two_1">
+    <image class="money_two_10" src="../../img/money1.png"></image>
+    <view class="money_two_11">
+      <text>微信</text>
+    </view>
+    <image class="money_two_12" src="../../img/money2.png"></image>
+   </view>
+   <view class="money_two_2">
+   </view>
+   <view class="money_two_3">
+     <text>为什么充值基金？充值基金的好处？</text>
+   </view>
+   <view class="money_two_4">
+     <button formType="submit" class="money_two_41">立即认证</button>
+   </view>
+</view>

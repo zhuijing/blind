@@ -1,0 +1,29 @@
+<!--pages/message/message.wxml-->
+<view class="bigwrap">
+  <view class="itemmain" >
+    <image src="/img/systmMsg.png "/>
+    <text class="smallfont topmsg ">系统消息</text>
+    <text class="smallerfont bottonmsg ">查看系统推送的消息</text>
+  </view>
+  <view class="itemmain ">
+    <image src="/img/heart2.png" />
+    <text class="smallfont topmsg">心动</text>
+    <text class="smallerfont bottonmsg">在这里可以看到心动的人</text>
+  </view>
+  <view class="itemmain" >
+    <image src="/img/weixin.png "/>
+    <text class="smallfont topmsg ">我加微信的</text>
+    <text class="smallerfont bottonmsg ">查看我加微信的人</text>
+  </view><view class="itemmain ">
+    <image src="/img/weixin.png" />
+    <text class="smallfont topmsg">加我微信的人</text>
+    <text class="smallerfont bottonmsg">查看加我微信的人</text>
+  </view>
+  <view class="itemmain" bindtap="goconnectmsg">
+    <image src="/img/connect.png "/>
+    <text class="smallfont topmsg ">牵线消息</text>
+    <text class="smallerfont bottonmsg ">查看牵线消息</text>
+  </view>
+
+</view>
+

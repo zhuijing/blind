@@ -1,0 +1,202 @@
+view{
+   font-weight: normal;
+   font-size: 28rpx;
+   color: #895f61;
+}
+.bigwrap{
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.head{
+  width: 100%;
+  height: 246rpx;
+  border-bottom: 7rpx solid #ffedf6;
+   display: flex;
+  flex-direction: row;
+}
+
+.headimgwrap{
+  position: relative;
+}
+.maskwrap{
+ position:absolute;
+ top: 0rpx;
+ left: 0rpx;
+ overflow: hidden;
+  border-radius: 50%;
+}
+.mask{
+   width: 153rpx;
+  height: 70rpx;
+   border-radius:0 0 153rpx 153rpx;
+   opacity: 0.5;
+   background: #000;
+   margin-top:104rpx;
+
+}
+
+.mask image{
+width: 33rpx;
+height: 28rpx;
+margin:10rpx 0 0 64rpx;
+}
+.headimg,.maskwrap{
+  width: 153rpx;
+  height: 153rpx;
+  border-radius: 50%;
+  margin: 34rpx 27rpx 0 46rpx;
+  border: 2rpx solid #fff;
+}
+.usermsg{
+  display: flex;
+  flex-direction: column;
+  color: #895f61;
+  margin-top: 80rpx;
+  margin-bottom: 12rpx;
+}
+.percentage{
+   color: #d9cecf;
+}
+.head button{
+width: 167rpx;
+height:46rpx;
+border: 2rpx solid #fe99cb;
+color: #fe99cb;
+padding: 0;
+border-radius: 6rpx;
+line-height: 46rpx;
+
+margin:165rpx 0rpx 0rpx 97rpx;
+}
+
+/*相册  */
+.album{
+  display: flex;
+  flex-direction:row;
+  width: 100%;
+  height: 198rpx; 
+  border-bottom: 7rpx solid #ffedf6;
+}
+
+.album text{
+  margin: 44rpx 54rpx 0 33rpx;
+}
+.album image{
+  width: 122rpx;
+  height: 122rpx;
+  border-radius:6rpx;
+  margin-right: 22rpx; 
+  margin-top: 32rpx;
+}
+
+/*相册结束  */
+.beansmoney{
+  width: 100%;
+  height: 160rpx;
+  border-bottom: 7rpx solid #ffedf6;
+}
+
+.allwrap{
+  width: 684rpx;
+  height: 82rpx;
+  border-bottom: 2rpx solid #fff9fc;
+  display: flex;
+  flex-direction:row;
+  margin: 0 auto;
+  align-items: center; 
+  justify-content: space-between;
+}
+
+.arrow{
+  width: 15rpx;
+  height: 15rpx;
+  border-top:5rpx solid #895f61;
+  border-right: 5rpx solid #895f61;
+  transform:rotate(45deg);
+  display: block;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+<view class="bigwrap">
+
+  <view class="onesingle" wx:for="{{imgurl}}">
+    <view class="viewmatch">
+      <image src="{{item}}" />
+      <text class="matcchname">JIM.Crowell</text>
+      <text class="matchssign">有缘千里来相会...</text>
+    </view>
+    <view class="viewrecom">
+      <image src="{{item}}" bindtap="gothismsg"/>
+      <view class="recomsignmsg">
+        <text class="recomsign">CARY.ELINA</text>
+        <view class="recommsg">
+          <text>24</text>·<text>160CM</text>·<text>巨蟹座</text>
+        </view>
+      </view>
+    </view>
+    <view class="heartlove">
+      <image src="../../img/heart.png" class="heart"/>
+      <image src="../../img/chat.png" class="connect"/>
+    </view>
+
+  </view>
+
+
+</view>

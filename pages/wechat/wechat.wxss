@@ -1,0 +1,123 @@
+/* pages/singlesRecom/singlesRecom.wxss */
+view{
+  font-weight: normal;
+}
+.wechat_top{
+  border-top:2rpx solid #FFF6FB;
+  width:100%;
+}
+.wechat_chat1{
+  margin-top:20rpx;
+  width:100%;
+  height:185rpx;
+  display:flex;
+  flex-direction:column;
+}
+.wechat_chat1_0 text{
+  font-size:28rpx;
+  color:#987375;
+  padding-left:38rpx;
+}
+.wechat_chat1_1{
+  padding-top:45rpx;
+  display:flex;
+  height:42rpx;
+  width:680rpx;
+  margin-left:50rpx;
+  border-bottom:2rpx solid #FFDDF0;
+}
+.wechat_chat1_1 text{
+  color:#723F42;
+  padding-left:30rpx;
+  font-size:26rpx;
+}
+.wechat_chat1_2{
+  margin-top:25rpx;
+  display:flex;
+  width:100%;
+  height:23rpx;
+  background: -moz-linear-gradient(top, #FFE8F4, #FEF7FB);
+
+background: -o-linear-gradient(top,#FFE8F4, #FEF7FB);
+
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFE8F4), to(#FEF7FB));
+}
+.wechat_chat2{
+  padding-top:36rpx;
+  height:300rpx;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+}
+.wechat_chat2_0{
+  font-size:28rpx;
+  line-height:10rpx;
+  color:#987375;
+  padding-left:38rpx;
+}
+.wechat_chat2_1{
+  margin-left:295rpx;
+  margin-top:76rpx;
+  width:186rpx;
+  height:186rpx;
+  display:flex;
+  border:2rpx solid #FE86C1;
+  align-items: center;
+  flex-direction:row;
+  border-radius:3rpx 3rpx 3rpx 3rpx;
+  justify-content: center;
+}
+.wechat_chat2_1 image{
+   width:104rpx;
+   height:104rpx;
+   display:block;
+  
+}
+.wechat_chat3{
+  height:600rpx;
+  display:flex;
+  flex-direction:column;
+  margin-top:135rpx;
+  width:100%;
+  background-color:#FFF6FB;
+}
+.wechat_chat31{
+  height:12rpx;
+  width:100%;
+  background: -moz-linear-gradient(top, #FFE8F4, #FEF7FB);
+
+background: -o-linear-gradient(top,#FFE8F4, #FEF7FB);
+
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFE8F4), to(#FEF7FB));
+}
+.wechat_chat32{
+  display:flex;
+  flex-direction:column;
+  margin-left:40rpx;
+  margin-top:50rpx;
+  width:545rpx;
+  height:136rpx;
+}
+.wechat_chat32_1{
+  font-size:24rpx;
+  color:#A28488;
+}
+.wechat_chat33{
+  margin-top:164rpx;
+  width:100%;
+  padding-left:63rpx;
+}
+.wechat_chat33_1{
+   width:612rpx;
+   height:72rpx;
+  display:block;
+   flex:display;
+   margin-left:-5rpx;
+   border:2rpx solid white;
+   background-color:#FE66B1;
+   line-height:72rpx;
+   border-radius:35rpx 35rpx 35rpx 35rpx;
+   box-shadow:0rpx 0rpx 10rpx #FE66B1;
+   font-size:30rpx;
+   color:white;
+}

@@ -1,0 +1,39 @@
+<view class="bigwrap">
+
+  <view class="main">
+    <view class="pink"></view>
+    <view class="white"></view>
+    <view class="content">
+      <image src="../../img/lyf.jpg" class="matchimg"/>
+      <view class="signAmsg">
+        <text class="sign">曹泽鹏</text>
+        <text class="msg">我是最棒的我是最棒的我是最棒的我是最棒的我是最棒的</text>
+      </view>
+      <view class="mysingle">
+        <text class="singlenum">20</text>
+       <text  class="singleT">单身团</text>
+      </view>
+      <view class="singleimg">
+      <image src="../../img/lyf.jpg"/>
+     
+      </view>
+      <view class="signAmsg" style="padding-left:28rpx">
+        <text class="sign" style="margin:0rpx !important;">刘亦菲</text>
+      <text class="msg">24岁·160cm·巨蟹</text>
+      </view>
+    </view>
+  </view>
+  <view class="heartAchat">
+   
+      <image src="../../img/heart.png " class="heart"/>
+      <text>16</text>
+   
+      <text class="vertical">|</text>
+   
+      <image src="../../img/chat.png " class="chat"/>
+      <text>30</text>
+    
+  </view>
+  <button class="shoop">咻一咻</button>
+
+</view>

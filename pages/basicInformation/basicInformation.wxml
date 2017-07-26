@@ -1,0 +1,23 @@
+<!--pages/singlesRecom/singlesRecom.wxml-->
+<view class="basic_top">
+  <text >基本资料</text>
+</view>
+<view class="basic_content" wx:for="{{[1,2,3,4,5,6,7,8,9,10,11]}}">
+  <view class="basic_content1">
+    <text class="basic_content10">婚姻状况</text>
+    <text class="basic_content11">未婚</text>
+  </view>
+  <view class="basic_content2"></view>
+</view>
+<!--兴趣爱好，自我标签-->
+<view class="basic_MostContent" wx:for="{{[1,2]}}">
+  <view class="basic_MostContent_text">
+    <text class="basic_MostContent11">兴趣爱好</text>
+    <view class="basic_MostContent1">
+        <text class="basic_MostContent10" wx:for="{{[10,20,30,40]}}">
+          6W-10W
+        </text >
+    </view>
+  </view>  
+    <view class="basic_content2"></view>
+</view>

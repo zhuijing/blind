@@ -1,0 +1,63 @@
+<!--pages/singlesRecom/singlesRecom.wxml-->
+<view class="identical_top">
+</view>
+<!--为什么要身份认证-->
+<view class="content1">
+  <view class="content1_0">
+    <image class="content1_0_1" src="../../img/identify.png">
+    </image>
+    <view class="content1_0_2">
+      <text>为什么要身份认证</text>
+    </view>
+  </view>
+  <view class="content1_1">
+    <text class="content1_1_1">圈外作为一个高端真实的婚恋平台，我们鼓励您认证证实身份，让每一份爱情建立在真实的基础上</text>
+  </view>
+</view>
+<!--关于隐私和安全-->
+<view class="content2">
+  <view class="content1_0">
+    <image class="content2_0_1" src="../../img/identify1.png">
+    </image>
+    <view class="content1_0_2">
+      <text>关于隐私和安全</text>
+    </view>
+  </view>
+  <view class="content1_1">
+    <text class="content1_1_1">圈外作为一个高端真实的婚恋平台，我们鼓励您认证证实身份，让每一份爱情建立在真实的基础上</text>
+  </view>
+</view>
+<!--身份认证-->
+<view class="content3">
+  <view class="content3_1">
+    <text class="content3_1_1">身份认证</text>
+    <text class="content3_1_2">{请务必按示例上传身份照片}</text>
+  </view>
+  <form class="content3_2" bindsubmit="formSubmit">
+    <view class="content3_2_1">
+      <input type="text" placeholder="请输入姓名" />
+    </view>
+    <view class="content3_2_1">
+      <input type="text" placeholder="请输入身份证号" />
+    </view>
+
+
+    <view class="content3_2_2">
+      <image src="../../img/identufy2.png"></image>
+      <view class="content3_2_2_1">
+        <view class="content3_2_2_10">
+          <text>+</text>
+        </view>
+      </view>
+    </view>
+
+
+    <view class="content3_2_3">
+      <text>手持正面照</text>
+    </view>
+
+    <view style="width:80%;">
+      <button formType="submit" class="content3_2_4">提交</button>
+    </view>
+  </form>
+</view>

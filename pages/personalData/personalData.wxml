@@ -1,0 +1,71 @@
+<!--pages/mine/mine.wxml-->
+<view class="personal_top">
+   <image src="../../img/lyf.jpg" class="personal_top_image"></image>
+   <view class="personal_top_text">
+     <text class="personal_top_text1">莉莉安</text>
+     <text class="personal_top_text2">24岁.160cm.巨蟹座</text>
+   </view>
+</view>
+<!--他的相册-->
+<view class="personal_her_image">
+  <view class="personal_her_title">
+    <text class="personal_her_title_text">
+    TA的相册
+    </text>
+  </view>
+  <view class="personal_her_content">
+    <image src="../../img/lyf.jpg" class="personal_her_content1" wx:for="{{[10,20,30]}}"></image>
+  </view>
+</view>
+<!--他的媒婆-->
+
+<view class="personal_her_meipo">
+  <view class="personal_her_title">
+    <text class="personal_her_title_text">
+    TA的媒婆
+    </text>
+  </view>
+  <view class="personal_her_meipo_content">
+    <image src="../../img/lyf.jpg" class="personal_her_meipo_content1" ></image>
+    <view class="personal_her_meipo_content2">
+       <text>JIM.Crowell</text>
+       <text>有缘千里来相会</text>
+    </view>
+  </view>
+</view>    
+<!--基本资料-->
+
+<view class="personal_her_introduce">
+  <view class="personal_her_title">
+    <text class="personal_her_title_text">
+    基本资料
+    </text>
+  </view>
+  <view class="personal_her_introduce_content">
+     <text class="personal_her_introduce_content1" wx:for="{{[10,20,30,40]}}">
+       6W-10W
+     </text >
+     <view bindtap="gotoBasicInformation" class="personal_her_introduce_content2">
+        
+     </view>
+  </view>
+</view>   
+<!--择偶条件-->
+
+<view class="personal_her_choose">
+  <view class="personal_her_title">
+    <text class="personal_her_title_text">
+    择偶条件
+    </text>
+  </view>
+  <view class="personal_her_choose_content">
+     <text class="personal_her_choose_content1" wx:for="{{[10,20,30,30,30]}}">
+       6W-10W
+     </text >
+  </view>
+</view> 
+<!--两个图片-->
+<view class="personal_her_bottom">
+  <image src="../../img/heart.png"></image>
+ <image style="margin-left:80rpx;" src="../../img/chat.png"></image>
+</view>  

@@ -1,0 +1,37 @@
+<view class="viewWrap">
+  <view class="bannerwrap">
+    <view class="bannerone"></view>
+    <view class="bannertwo"></view>
+
+    <view class="banner">
+      <swiper bindchange="swiperChage" indicator-dots="{{indicatorDots}}" indicator-color="{{indicatorDolor}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-active-color="{{activeColor}}">
+        <block wx:for="{{imgUrls}}">
+          <swiper-item>
+            <image src="{{item}}"  style=" border-radius:12rpx;" class="slide-image" width="100%" height="100%" />
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+
+  </view>
+
+
+  <!--媒婆列表  -->
+
+
+  <view class="listWrap">
+    <view class="listitem" wx:for="{{imgUrls}}">
+      <view style="margin:29rpx auto 20rpx;" bindtap="gothismatch">
+        <image src="{{item}}" class="itemImg" />
+      </view>
+      <text style="font-size:26rpx;color:#723f42;margin-bottom:20rpx;">我是最棒的</text>
+      <view class="smallimgwrap">
+        <image src="{{item}}" wx:for="{{imgUrls}}"class="smallimg"/>       
+        <text class="smallimg">20</text>
+      </view>
+      <button>关注</button>
+    </view>
+
+  </view>
+
+</view>

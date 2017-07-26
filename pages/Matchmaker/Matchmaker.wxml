@@ -1,0 +1,88 @@
+<view class="viewWrap">
+  <view class="topwrap">
+    <image src="../../img/lyf.jpg" class="topimg"></image>
+    <view class="nameAsign">
+      <text class="topname">JIM.Grnne</text>
+      <text class="topsign">有缘千里来相会</text>
+    </view>
+    <button>关注</button>
+  </view>
+
+  <!--单身团 牵线成功  -->
+
+  <view class="singleAsuccess">
+    <view class="single"><text style="padding-left:40rpx;">单生团</text><text style="padding-left:27rpx;">20</text></view>
+    <view class="success"><text style="padding-left:32rpx;">牵线成功</text> <text style="padding-left:17rpx;">10</text></view>
+  </view>
+  <!--男生女生  -->
+  <view class="boyAgirl">
+    <view class="boygirltab">
+      <text style="margin:0rpx 300rpx 0rpx 92rpx;line-height:300%;">女生</text>
+      <text style="line-height:300%;">男生</text>
+    </view>
+
+
+    <view class="boylist" hidden="{{boynone}}">
+      <view class="boylistitem" wx:for="{{imgurl}}">
+        <image src="{{item}}" class="topimg" bindtap="gopersonalData"/>
+        <view class="nameAsign">
+          <text class="topname">JIM.Grnne</text>
+          <text class="topsign">有缘千里来相会</text>
+        </view>
+        <image src="../../img/chat.png" class="chatpng"/>
+      </view>   
+    </view>
+
+
+
+
+
+    <view class="girllist" hidden="{{girlnone}}"></view>
+
+
+  </view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</view>

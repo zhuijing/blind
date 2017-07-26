@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "幸福基金",
+  "navigationBarBackgroundColor": "#FFF6FB",
+  "navigationBarTextStyle": "black",
+  "backgroundColor": "#fff6fb",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh": true
+}

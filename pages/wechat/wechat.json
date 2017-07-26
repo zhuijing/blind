@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的微信号",
+  "navigationBarBackgroundColor": "white",
+  "navigationBarTextStyle": "black",
+  "backgroundColor": "#fff6fb",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh": true
+}

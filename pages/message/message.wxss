@@ -1,0 +1,37 @@
+/* pages/message/message.wxss */
+page{
+  background: #fff6fb;
+}
+view{
+  font-weight: normal;
+}
+.bigwrap{
+  background: #fff6fb;
+}
+.itemmain{
+  width: 100%;
+  height: 112rpx;
+  margin-top: 5rpx;
+  background: #fffefe;
+  color: #723f42;
+  padding-left: 33rpx;
+  padding-top:17rpx;
+  position: relative; 
+}
+.itemmain image{
+  height: 78rpx;
+  width: 78rpx;
+  border-radius: 50%;
+
+}
+.topmsg{
+position: absolute;
+top: 25rpx;
+left:135rpx;
+}
+.bottonmsg{
+position: absolute;
+top: 65rpx;
+left: 135rpx;
+color: #d8cdce;
+}

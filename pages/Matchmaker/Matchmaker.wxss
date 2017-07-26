@@ -1,0 +1,233 @@
+.viewWrap {
+  display: flex;
+  flex-direction: column;
+}
+
+/*顶部媒婆个人信息*/
+
+.topwrap {
+  width: 100%;
+  height: 346rpx;
+  background: #fff;
+  border-top: 3rpx solid #fff6fb;
+  padding-top:23rpx;
+
+}
+
+.topimg {
+  width: 153rpx;
+  height: 153rpx;
+  margin: 0 auto;
+  border-radius: 50%;
+  display: block;
+  border: 2px solid #fff;
+}
+
+.nameAsign {
+  color: #723f42;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 26rpx;
+  margin-bottom: 15rpx;
+}
+
+.topname {
+  font-size: 20rpx;
+  margin-bottom: 7rpx;
+}
+
+.topsign {
+  font-size: 23rpx;
+}
+
+.topwrap button {
+  border-radius: 22rpx;
+  width: 124rpx;
+  height: 44rpx;
+  margin: 0 auto;
+  border: 1px solid #fff;
+  background: #fe66b1;
+  box-shadow: rgb(255, 160, 207) 0 3rpx 3rpx 3rpx;
+  font-size: 19rpx;
+  line-height: 44rpx;
+  color: #fff;
+}
+
+/*单身 牵线成功*/
+
+.singleAsuccess {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100rpx;
+  background: #fff6fb;
+  color: #fff;
+  font-size: 24rpx;
+  padding-top:29rpx;
+ box-shadow:rgb(255, 232, 244) 0rpx 9rpx 33rpx 1rpx inset;
+
+}
+
+.single, .success {
+  width: 220rpx;
+  height: 50rpx;
+  background: #ffb9db;
+  border: 2rpx #fd98ca solid;
+  line-height: 50rpx;
+  border-radius: 6rpx;
+  margin-top:0rpx;
+
+}
+.single{
+  margin: 0rpx 29rpx 0rpx 139rpx;
+}
+/*男生女生  */
+
+.boyAgirl{
+  background: #fff6fb;
+  overflow: hidden;
+}
+.boygirltab{
+  width: 100%;
+  height:80rpx;
+  background: #fff;
+  display: flex;
+  flex-direction:row ;
+  color: #947476;
+  margin-bottom: 20rpx;
+}
+.boygirltab text{
+  display: block;
+  width: 126rpx;
+  height: 100%;
+  line-height:100%;
+  text-align: center;
+  font-size: 29rpx;
+  border-bottom:3rpx solid #fe66b1; 
+}
+/*男女列表*/
+.boylist{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.listimg{
+  width: 153rpx;
+  height: 153rpx;
+  margin: 0 auto;
+  border-radius: 50%;
+  display: block;
+  border: 2px solid #fff;
+
+}
+.boylistitem{
+  width:332rpx;
+  height: 346rpx;
+  background: #fff;
+  margin-bottom:80rpx !important;
+  border-radius:6rpx;
+  box-shadow: rgb(255, 237, 243) 0rpx 0rpx 6rpx 6rpx;
+  padding-top:29rpx;
+
+}
+.boylistitem:nth-child(odd){
+  margin:0rpx 26rpx 0rpx 31rpx ;
+}
+.chatpng{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top:45rpx; 
+  display: block;
+}
+
+
+/* box-shadow: rgb(255, 234, 240) 0rpx 0rpx 33rpx 9rpx;四周阴影
+颜色  水平偏移 垂直偏移 模糊距离 阴影的尺寸 inset内阴影
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
